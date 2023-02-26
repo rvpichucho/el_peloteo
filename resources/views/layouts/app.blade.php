@@ -27,7 +27,7 @@
     <nav id="navbar" class="navbar navbar-expand-md navbar-light fixed-top navbar-dark">
       <div class="container nav-color-movil">
         <a class="navbar-brand text-white font-weight-bolder" href="{{ url('/') }}">
-          Logo
+        <img class="mx-auto w-48" src="{{ asset('/img/peloteo.png') }}" alt="logo" width="80" height="90" />
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
           <span class="navbar-toggler-icon"></span>

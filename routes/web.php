@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\FieldController;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -22,6 +23,9 @@ Route::view('cancha-dos', 'canchas.two')
 					->middleware('auth');
 Route::view('cancha-tres', 'canchas.three')
 					->name('cancha-tres')
+					->middleware('auth');
+Route::view('menu-reserva', 'menu.index')
+					->name('menu-reserva')
 					->middleware('auth');
 
 Route::resource('onefields', FieldController::class)
