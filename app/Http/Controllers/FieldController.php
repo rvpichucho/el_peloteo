@@ -34,8 +34,9 @@ class FieldController extends Controller
                       ->diff(Carbon::parse(request('start')))
                       ->format('%h hora(s) con %i minuto(s)');
 
-        $data =  [
+        $data =  [  
           'name'  => $request->name,
+          'cedula'=> $request->cedula,
           'date'  => $request->date,
           'start' => $startHour,
           'end'   => $endHour,
@@ -90,6 +91,7 @@ class FieldController extends Controller
 
         $data = [
             'name'  => $request->name,
+            'cedula'  => $request->cedula,
             'date'  => $request->date,
             'start' => $startHour,
             'end'   => $endHour,

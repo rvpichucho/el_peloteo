@@ -23,24 +23,24 @@
         <div class="relative group bg-gray-900 py-10 sm:py-20 px-4 flex flex-col space-y-2 items-center cursor-pointer rounded-md hover:bg-gray-900/80 hover:smooth-hover">
           <img class="w-20 h-20 object-cover object-center rounded-full" src="https://www.espaciosdeportivos.com.gt/wp-content/uploads/2020/01/Cancha-Sintetica-Chimaltenango-1.jpeg" alt="cuisine" />
           <h4 class="text-white text-2xl font-bold capitalize text-center">Cancha de Futbol cesped Sintetica</h4>
-          <p class="text-white/50">55 members</p>
-          <p class="absolute top-2 text-white/20 inline-flex items-center text-xs">22 Online <span class="ml-2 w-2 h-2 block bg-green-500 rounded-full group-hover:animate-pulse"></span></p>
+          <p class="text-white/50">Bella cancha de cesped sintetico con capacidad maxima para 16 jugadores, incluye redes en los arcos y un balón(valor 10 dolares/h)</p>
+          <p class="absolute top-2 text-white/20 inline-flex items-center text-xs">Cancha 1 <span class="ml-2 w-2 h-2 block bg-green-500 rounded-full group-hover:animate-pulse"></span></p>
         </div>
         </a>
         <a href="{{ route('cancha-dos') }}" class="btn btn-outline-primary">
         <div class="relative group bg-gray-900 py-10 sm:py-20 px-4 flex flex-col space-y-2 items-center cursor-pointer rounded-md hover:bg-gray-900/80 hover:smooth-hover">
           <img class="w-20 h-20 object-cover object-center rounded-full" src="https://i.pinimg.com/originals/7e/3b/5b/7e3b5b13a5595cccd5e872e02becb31b.jpg" alt="art" />
           <h4 class="text-white text-2xl font-bold capitalize text-center">Cancha de Basket</h4>
-          <p class="text-white/50">132 members</p>
-          <p class="absolute top-2 text-white/20 inline-flex items-center text-xs">4 Online <span class="ml-2 w-2 h-2 block bg-green-500 rounded-full group-hover:animate-pulse"></span></p>
+          <p class="text-white/50">Cancha de cemento que posee las medidas reglamentarias, inchuye redes en los aros y un balón(valor 10 dolares/h)</p>
+          <p class="absolute top-2 text-white/20 inline-flex items-center text-xs">Cancha 2 <span class="ml-2 w-2 h-2 block bg-green-500 rounded-full group-hover:animate-pulse"></span></p>
         </div>
         </a>
         <a href="{{ route('cancha-tres') }}" class="btn btn-outline-primary">
         <div class="relative group bg-gray-900 py-10 sm:py-20 px-4 flex flex-col space-y-2 items-center cursor-pointer rounded-md hover:bg-gray-900/80 hover:smooth-hover">
           <img class="w-20 h-20 object-cover object-center rounded-full" src="https://www.castillodeamaguana.com/imagenes/carruseles_deportes/voley/voley/voley1_carrusel.jpg" alt="gaming" />
           <h4 class="text-white text-2xl font-bold capitalize text-center">Cancha de Ecuavoley</h4>
-          <p class="text-white/50">207 members</p>
-          <p class="absolute top-2 text-white/20 inline-flex items-center text-xs">0 Online <span class="ml-2 w-2 h-2 block bg-red-400 rounded-full group-hover:animate-pulse"></span></p>
+          <p class="text-white/50">Cancha para ecuavoley de cemento con las medidas reglamentarias, incluye red y balón(valor 5 dolares/h)</p>
+          <p class="absolute top-2 text-white/20 inline-flex items-center text-xs">Cancha 3 <span class="ml-2 w-2 h-2 block bg-red-400 rounded-full group-hover:animate-pulse"></span></p>
         </div>
         </a>
 
@@ -48,8 +48,8 @@
         <div class="relative group bg-gray-900 py-10 sm:py-20 px-4 flex flex-col space-y-2 items-center cursor-pointer rounded-md hover:bg-gray-900/80 hover:smooth-hover">
           <img class="w-20 h-20 object-cover object-center rounded-full" src="https://civideportes.com.co/wp-content/uploads/2019/10/C%C3%B3mo-hacer-una-cancha-de-f%C3%BAtbol.jpg" alt="gaming" />
           <h4 class="text-white text-2xl font-bold capitalize text-center">cancha de futbol cesped natural </h4>
-          <p class="text-white/50">207 members</p>
-          <p class="absolute top-2 text-white/20 inline-flex items-center text-xs">0 Online <span class="ml-2 w-2 h-2 block bg-red-400 rounded-full group-hover:animate-pulse"></span></p>
+          <p class="text-white/50">Cancha para futbol 11 de cesped natural, posee las medidas reglamentarias y el precio incluye las redes en los arcos(valor 10 dolares/h) </p>
+          <p class="absolute top-2 text-white/20 inline-flex items-center text-xs">Cancha 4 <span class="ml-2 w-2 h-2 block bg-red-400 rounded-full group-hover:animate-pulse"></span></p>
         </div>
         
        
