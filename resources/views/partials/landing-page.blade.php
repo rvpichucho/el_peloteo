@@ -3,8 +3,9 @@
 	<div class="container pb-4 pt-2">
 	  <div class="row align-items-center">
 	    <div class="col-sm-12 col-md-7 text-banner">
-			<h1 class="fw-bold">Omnis iste assumenda necessitatibus</h1>
-			<p class="">Lorem ipsum, dolor, sit amet consectetur adipisicing elit. Omnis iste assumenda necessitatibus, quaerat, quos labore atque cumque vero accusantium quo libero optio eum eligendi itaque odit explicabo expedita non harum.</p>
+			<h1 class="fw-bold">EL PELOTEO</h1>
+			<h2 class="fw-bold">Reservación de canchas en línea</h2>
+			<p class="">Reserva desde donde te encuentres !!</p>
 			<a href="{{ route('menu-reserva') }}" class="btn btn-outline-primary">
 				Reserva tu cancha
 			</a>
