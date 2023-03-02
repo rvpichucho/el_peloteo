@@ -32,7 +32,7 @@
 	    <div class="col-sm-6 col-md-6 col-lg-4 text-center">
 	      <div class="row">
 	      	<h3 class="title font-weight-bolder">Lorem ipsum dolor</h3>
-	      	<p class="text-secondary">Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Soluta commodi maiores.</p>
+	      	<p class="text-secondary">Lorem ipsum, dolor sit, asmet consectetur adipisicing elit. Soluta commodi maiores.</p>
 	      </div>
 	    </div>
 	    <div class="col-sm-6 col-md-6 col-lg-4 text-center">
