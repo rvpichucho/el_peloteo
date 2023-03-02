@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->auth;
 
 Route::get('profile', [ProfileController::class, 'edit'])
 			->name('profile.edit');
@@ -34,3 +34,4 @@ Route::resource('onefields', FieldController::class)
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::delete('/login/{onefield}', [App\Http\Controllers\FieldController::class, 'destroy'])->name('fields_delete');

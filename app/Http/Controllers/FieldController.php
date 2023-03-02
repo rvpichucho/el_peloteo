@@ -130,6 +130,7 @@ class FieldController extends Controller
     public function destroy(Field $onefield)
     {
         $onefield->delete();
+        #dd($onefield);
         return response('Event removed successfully!', Response::HTTP_NO_CONTENT);
     }
 }
